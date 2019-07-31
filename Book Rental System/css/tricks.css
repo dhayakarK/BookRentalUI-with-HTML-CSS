@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-image: url('/Book Rental System/images/background.jpg');
+   
+    
+}
+h1.main-heading{
+    text-align: center;
+    padding: 40px;
+    background-color: blueviolet;
+    clear: both;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0px;
+    color: aliceblue;
+    width: 100%;
+}
+.heading{
+  border-radius: 1px;
+}
+div.flex-container
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+  margin-top: 0px;
+  border-radius: 2px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+div.navigation-bar
+{
+  padding: 10px;
+  background-color: ghostwhite;
+  flex-grow: 2;
+  height: 400px;
+  margin-right: 3px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+div.side-bar
+{
+  padding: 10px;
+  background-color: white;
+  flex-grow: 8;
+  height: 400px;
+  border-radius: 4px;
+  background-image: url('/Book Rental System/images/book.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.navigation-bar > a{
+  /* background-color: burlywood;*/ 
+  display: flex;
+  flex-direction: column;
+  flex-grow: 10;
+  align-items: stretch;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 4px;
+  border-left:5px solid green;
+  text-decoration: none;
+  color:black;
+  text-align: left;
+  border-bottom: 1px solid black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navigation-bar > a:hover{
+  background-color: green;
+}
+ul.list > li{
+  list-style-type: disc ;
+  margin:30px;
+  font-size: 13px;
+}
+.footer-section
+{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin-top: 0px;
+}
+.footer-section > h1{
+  padding:25px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+  font-family:  Verdana;
+}
